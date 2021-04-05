@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PhotoCustomVC" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cYg-wg-GPA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JKE-Sz-cu7">
+                            <rect key="frame" x="5" y="5" width="365" height="140"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clear Photos, Better Response" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dt-zh-Qlo">
+                                    <rect key="frame" x="0.0" y="0.0" width="365" height="43.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swj-jL-ciq">
+                                    <rect key="frame" x="0.0" y="48.5" width="365" height="43"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    <inset key="imageEdgeInsets" minX="-82" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Take Photos" image="Camera32">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.BorderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otO-bv-gh6">
+                                    <rect key="frame" x="0.0" y="96.5" width="365" height="43.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    <inset key="imageEdgeInsets" minX="-67" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Select Photos" image="Gallery32">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.BorderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="JKE-Sz-cu7" secondAttribute="trailing" constant="5" id="ITm-aX-1gs"/>
+                        <constraint firstAttribute="bottom" secondItem="JKE-Sz-cu7" secondAttribute="bottom" constant="5" id="KlG-IK-zeT"/>
+                        <constraint firstItem="JKE-Sz-cu7" firstAttribute="top" secondItem="cYg-wg-GPA" secondAttribute="top" constant="5" id="OnS-6A-VJd"/>
+                        <constraint firstItem="JKE-Sz-cu7" firstAttribute="leading" secondItem="cYg-wg-GPA" secondAttribute="leading" constant="5" id="trJ-FI-nfW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cYg-wg-GPA" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="4WD-8u-bJH"/>
+                <constraint firstItem="cYg-wg-GPA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="AJX-KU-YVE"/>
+                <constraint firstItem="cYg-wg-GPA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="NBc-s2-lBo"/>
+                <constraint firstItem="cYg-wg-GPA" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="abC-ak-8qh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="ServiceClearPhotoLbl" destination="3dt-zh-Qlo" id="RLI-bI-rpo"/>
+                <outlet property="ServiceSelectPhotoBtn" destination="otO-bv-gh6" id="sd5-8U-TCo"/>
+                <outlet property="ServiceTakePhotoBtn" destination="swj-jL-ciq" id="PHz-Du-cwk"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Camera32" width="32" height="32"/>
+        <image name="Gallery32" width="32" height="32"/>
+    </resources>
+</document>

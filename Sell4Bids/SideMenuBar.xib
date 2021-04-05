@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.90000000000000002" contentMode="scaleToFill" id="iN0-l3-epB" customClass="SideMenuBar" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile-image-for-sell4bids-App" translatesAutoresizingMaskIntoConstraints="NO" id="sLW-b9-YtP">
+                    <rect key="frame" x="137.5" y="50" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Pr9-gn-GDC"/>
+                        <constraint firstAttribute="height" constant="100" id="kiB-xO-JBf"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sell4Bids" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpB-yt-Y9F">
+                    <rect key="frame" x="146.5" y="160" width="82" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    </variation>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FLY-cI-0T5">
+                    <rect key="frame" x="0.0" y="182" width="375" height="485"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZt-yO-I49">
+                    <rect key="frame" x="5" y="40" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="4Jc-U7-vDA"/>
+                        <constraint firstAttribute="height" constant="35" id="B2Q-ls-PKH"/>
+                    </constraints>
+                    <state key="normal" image="BackArrow"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="FLY-cI-0T5" secondAttribute="bottom" id="Ble-6s-jVb"/>
+                <constraint firstItem="FLY-cI-0T5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Dc8-Ya-zph"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FLY-cI-0T5" secondAttribute="trailing" id="Hfr-9W-vEK"/>
+                <constraint firstItem="sLW-b9-YtP" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="HjW-Yl-r7k"/>
+                <constraint firstItem="sLW-b9-YtP" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="LQH-H4-XNs"/>
+                <constraint firstItem="LpB-yt-Y9F" firstAttribute="centerX" secondItem="sLW-b9-YtP" secondAttribute="centerX" id="Sb9-25-9hD"/>
+                <constraint firstItem="FLY-cI-0T5" firstAttribute="top" secondItem="LpB-yt-Y9F" secondAttribute="bottom" id="SwJ-EJ-2pm"/>
+                <constraint firstItem="LpB-yt-Y9F" firstAttribute="top" secondItem="sLW-b9-YtP" secondAttribute="bottom" constant="10" id="eZn-XJ-w9B"/>
+                <constraint firstItem="pZt-yO-I49" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="kLZ-k2-qGz"/>
+                <constraint firstItem="pZt-yO-I49" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="vlN-uF-wgH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="BackArrow" destination="pZt-yO-I49" id="YVj-XW-5ud"/>
+                <outlet property="TableView" destination="FLY-cI-0T5" id="TBm-dh-0iI"/>
+                <outlet property="UserImage" destination="sLW-b9-YtP" id="4TN-WQ-cxy"/>
+                <outlet property="UserName" destination="LpB-yt-Y9F" id="dAj-YG-t2F"/>
+            </connections>
+            <point key="canvasLocation" x="146.40000000000001" y="91.304347826086968"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackArrow" width="64" height="64"/>
+        <image name="Profile-image-for-sell4bids-App" width="128" height="128"/>
+    </resources>
+</document>

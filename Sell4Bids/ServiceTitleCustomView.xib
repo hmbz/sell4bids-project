@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ServiceTitleVC" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l5v-MI-rS0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oGK-Ph-bBg">
+                            <rect key="frame" x="5" y="5" width="365" height="110"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHz-fQ-cm1">
+                                    <rect key="frame" x="0.0" y="0.0" width="365" height="60"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    </variation>
+                                </label>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What are you Selling?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="esw-ru-TLv">
+                                    <rect key="frame" x="0.0" y="60" width="365" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="E7a-sY-UhH"/>
+                                    </constraints>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    </variation>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="oGK-Ph-bBg" firstAttribute="leading" secondItem="l5v-MI-rS0" secondAttribute="leading" constant="5" id="8tW-jZ-kbF"/>
+                        <constraint firstAttribute="bottom" secondItem="oGK-Ph-bBg" secondAttribute="bottom" constant="5" id="QiT-ql-IHa"/>
+                        <constraint firstItem="oGK-Ph-bBg" firstAttribute="top" secondItem="l5v-MI-rS0" secondAttribute="top" constant="5" id="eY5-rE-6Us"/>
+                        <constraint firstAttribute="trailing" secondItem="oGK-Ph-bBg" secondAttribute="trailing" constant="5" id="qQg-AQ-Egp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="l5v-MI-rS0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="18m-H9-udD"/>
+                <constraint firstItem="l5v-MI-rS0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Bdh-Yd-83u"/>
+                <constraint firstItem="l5v-MI-rS0" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Ot3-83-fMI"/>
+                <constraint firstItem="l5v-MI-rS0" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="gYk-tY-mYy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="ServiceTitleLbl" destination="XHz-fQ-cm1" id="0NH-pU-L8o"/>
+                <outlet property="ServiceTitleTextField" destination="esw-ru-TLv" id="lf1-0s-ceJ"/>
+            </connections>
+        </view>
+    </objects>
+</document>

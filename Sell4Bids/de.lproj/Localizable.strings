@@ -1,0 +1,361 @@
+/* 
+  Localizable.strings
+  Sell4Bids
+
+  Created by admin on 1/29/19.
+  Copyright © 2019 admin. All rights reserved.
+*/
+
+// Home screen
+"home" = "Home";
+"Home" = "Home";
+"Sell Now" = "Sell Now";
+"Browse Categories" = "Browse Categories";
+"My Sell4Bids" = "My Sell4Bids";
+"Jobs" = "Jobs";
+"My Chat" = "My Chat";
+"My Watch List" = "My Watch List";
+"My Profile" = "My Profile";
+"Notifications" = "Notifications";
+"What is Sell4Bids?" = "What is Sell4Bids?";
+"How it Works?" = "How it Works?";
+"Establish Contact" = "Establish Contact";
+"About Sell4Bids" =  "About Sell4Bids";
+"Terms and conditions" = "Terms and conditions";
+"Privacy Policy" = "Privacy Policy";
+"Legal" = "Legal";
+"Rate Us" = "Rate Us";
+"Share this App" = "Share this App";
+"Logout" = "Logout";
+"FeedBack" = "FeedBack";
+
+// UserProfileDetailVc
+"editDetailBtnUPD" = "Edit Details";
+"changePhotoUPD" = "Change Photo";
+"ratingLblUPD" = "Rating";
+"detailInfoLblUPD" = "Detail Info";
+"emailLblUPD" = "Email";
+"zipCodeLblUPD" = "Zip Code";
+"stateLocationLblUPD" = "State/Location";
+"emailNotificationPreferenceLblUPD" = "Email Notification Preferences";
+"buyingActivityLblUPD" = "Buying Activities";
+"chatMesageEmailLblUPD" = "Chat Messages Emails";
+"sellingActivityLblUPD" = "Selling Activities";
+"sell4bidsInfoLblUPD" = "Sell4Bids Info";
+"watchingLblUPD" = "Watching";
+"followersLblUPD" = "Followers";
+"followingLblUPD" = "Following";
+"totalListingsInfoUPD" = "Total Listing";
+"buyingandBidsLblUPD" = "Buying & Bids";
+"boughtandWinsLblUPD" = "Bought & Wins";
+"unreadMessageLblUPD" = "Unread Messages";
+"unreadNotificationLblUPD" = "Unread Notifications";
+
+// EditingUserprofile
+"EnterDetailsEUP" = "Enter Details";
+"FullNameEUP" = "Full Name";
+"ZipCodeEUP" = "Zip Code";
+"CityandStateEUP" = "City and State will be Updated from Zip Code";
+"UpdateEUP" = "Update";
+
+// ChangeImagePopUpVC
+"TakePhotoBtnCIPU" = "Take Photo";
+"SelectPhotoCIPU" = "Select Photo";
+
+// FilterVC
+"DoneBtnFVC" = "Done";
+"CategoryFVC" = "Category";
+"BuyingOptionFVC" = "Buying Option";
+"CountryFVC" = "Country";
+"ZipCodeFVC" = "Zip Code";
+"CityandStateFVC" = "City and Sate will be fatched from zip code";
+"CityFVC" = "City";
+"ChangeCityFVC" = "Change zip code to change city";
+"StateFVC" = "State";
+"ChangeZipCodetoChangeStateFVC" = "Change zip code to change state";
+"AnyFVC" = "Any";
+"PriceRangeFVC" = "Price Range";
+"ConditionFVC" = "Condition";
+
+// SellNowStep1Vc
+"SelectCategorySTVC" = "Select Picture";
+"TakePhotoSNS1" = "Take Photo";
+"SelectPicture2SNS1" = "Select Picture";
+"TakePhoto2SNS1" = "Take Photo";
+
+// StepTwoVC
+"SelectCategorySTVC" = "Select Category";
+"NextBtnSTVC" = "Next";
+"CategorySTVC" = "Category";
+"ConditionTitleLblSTVC" = "Condition";
+"DescriptionSTVC" = "Description";
+"VIMNumberSTVC" = "VIM Number";
+
+// Step3VC
+"NextS3VC" = "Next";
+"SalaryS3VC" = "Salary";
+"PriceS3VC" = "Price";
+"QuantityS3VC" = "Quantity";
+"ListIndefinitely" = "List Indefinitely";
+"ListingDuration" = "Listing Duration";
+"AcceptOffers" = "Accept Offers";
+"AutomaticRelisting" = "Automatic Relisting";
+
+
+// Step4VC
+"FinishBtnS4VC" = "Finish";
+"SaveS4VC" = "Save";
+"CompanyInformationS4VC" = "Company Information";
+"LocationFromZipCode" = "Location";
+"LocateMeS4VC" = "Locate Me";
+"EnterZipCodeS4VC" = "Enter Zip Code";
+
+// FinalVC
+"DoneBtnFVC" = "Done";
+"CongratsFVC" = "Congrats";
+"DoneMessageFVC" = "Your item has been successfully listed  on Sell4Bids";
+"GoodLuckFVC" = "Good Luck";
+
+// HomeVC
+"SellorAuctionOffNowHVC" = "Sell or Auction Off Now";
+
+// SellingVc
+"SellingTab" = "Selling";
+
+// Buying or Bought
+"Buying & BidsTab" = "Buying & Bids";
+
+// Bought & Wins
+"Bought & WinsTab" = "Bought & Wins";
+
+// Followers
+"FollowersTab" = "Followers";
+
+// Following
+"FollowingTab" = "Following";
+
+// Block List
+"Block ListTab" = "Block List";
+
+//SellerImageVC
+"DoneBtnFVC" = "Done";
+
+// EndListingVC
+"BtnEndListingEVC" = "End Listing";
+"BtnCancelEVC" = "Cancel";
+"whyDoWantTOEndItemListingEVC" = "Why do want to end item Listing?";
+"ReasontoenditemListingEVC" = "Reason to end item Listing";
+
+"Item is out of stock" = "Item is out of stock";
+"I will re-list later" = "I will re-list later";
+"I am not interested to sell" = "I am not interested to sell";
+"Item is no longer available" = "Item is no longer available";
+"Not receiving desired bids/offers" = "Not receiving desired bids/offers";
+"Other" = "Other";
+
+// ProductDetailsVC
+"SendBtn" = "Send";
+"SendCounterOfferPDVC" = "Send Counter Offer";
+"OfferAmountPerItemPDVC" = "Offer Amount Per Item";
+"QuantityToBuyPDVC" = "Quantity To Buy";
+
+"ChatwSeller" = "Chat w Seller";
+"Chat w Employer" = "Chat w Employer";
+"Buy Now" = "Buy Now";
+"Apply Now" = "Apply Now";
+"OfferNow" = "Offer Now";
+"BidNow" = "Bid Now";
+
+// Send Report VC
+"WhatYouFoundInappropiateRIVC" = "What You Found Inappropriate";
+"SendReport" = "Send Report";
+
+// OfferPopUp
+"SendOfferBtn" = "Send Offer";
+"SendOrderBuyNowBtn" = "Send Order";
+"OfferAmountLbl" = "Offer Amount Per Item";
+"QuantityLbl" = "Quantity to buy";
+"QuantityToBuy" = "Quantity to buy";
+
+// UpdateProdQuantityPopUpVC
+"SetQuantity" = "Set Quantity";
+"QuantityinStock" = "Quantity in Stock";
+
+"Update" = "Update";
+"Start Price" = "Start Price";
+"Reserve Price" = "Reserve Price";
+"Number of Days" = "Number of Days";
+
+// SendCounterOfferPopUp
+"Offer amount Per item" = "Offer amount per item";
+"Quantity to Sell" = "Quantity to sell";
+"Send Counter Offer btn" = "Send Counter Offer";
+
+// GMSPlacePickerController
+"SelectAgain" = "Select Again";
+"ShereLocation" = "Share Location";
+"address of Place" = "Address of place";
+
+// EditListingVC
+"Update All" = "Update All";
+"Title" = "Title";
+"Description" = "Description";
+"Condition" = "Condition";
+"ConditionValue" = "New/Open Box";
+"Price" = "Price";
+"Quantity in Stock" = "Quantity in Stock";
+"Accept Offers" = "Accept Offers";
+"Automatic Relisting" = "Automatic Relisting";
+"List Indefinitely" = "List Indefinitely";
+"Reserve Price" = "Reserve Price";
+"Starting Price" = "Starting Price";
+
+// WatchingVC
+"Watch List" = "Watch List";
+// My Chat VC
+"My Chat" = "My Chat";
+// ViewOfferVC
+"No Orders received " = "No Orders received";
+"Offers" = "Offers";
+"You Successfully shared your location with Buyer." = "You Successfully shared your location with Buyer.";
+"Update Location" = "Update Location";
+"Rating has been Updated" = "Rating has been Updated";
+"MySell4Bids Rating" = "MySell4Bids Rating";
+"You rated this user." = "You rated this user.";
+"Rate the User by Tapping on Stars." = "Rate the User by Tapping on Stars.";
+"Yes" = "Yes";
+"No" = "No";
+"Sorry, Could not share your location with buyer because your product's Details could not be fetched" = "Sorry, Could not share your location with buyer because your product's Details could not be fetched";
+"Sorry, could not share your location because buyers data could not be fetched" = "Sorry, could not share your location because buyers data could not be fetched";
+"No address String found" = "No address String found";
+"Sorry, could not share your location. Hint: Database operation failed" = "Sorry, could not share your location. Hint: Database operation failed";
+"Successfully Shared your location with buyer" = "Successfully Shared your location with buyer";
+"orders" = "Orders";
+"Sorry, Database Operation Failed" = "Sorry, Database Operation Failed";
+"Sorry, No Item left in Stock" = "Sorry, No Item left in Stock";
+"OrdersVOVC" = "Orders";
+"Sorry your Product Stock is out of limit" = "Sorry your Product Stock is out of limit";
+
+// Product Detail VC
+"Check out this item that i found on The Sell4Bids Marketplace." = "Check out this item that i found on The Sell4Bids Marketplace.";
+"Item has been added to your Watch List" = "Item has been added to your Watch List";
+"My Sell4Bids watch List" = "My Sell4Bids watch List";
+"This Item has been Removed from Your Watch List" = "This Item has been Removed from Your Watch List";
+"No ratings yet." = "No ratings yet.";
+
+"Description"= "Description";
+"Condition" = "Condition";
+"Company" = "Company";
+"Benefits" = "Benefits";
+"Employment" = "Employment";
+"Pay Period" = "Pay Period";
+"ShareBtn" = "Share";
+"Quantity in Stock" = "Quantity in Stock";
+"AddtoMySell4BidsWatchList" = "AddtoMySell4BidsWatchList";
+"Remove From My Watch List" = "Remove From My Watch List";
+"View Offers" = "View Offers";
+"View Bidding History" = "View Bidding History";
+"Your offer has been sent to the Seller. Waiting for the seller to respond. You can also send a Chat Message directly to the Seller" = "Your offer has been sent to the Seller. Waiting for the seller to respond. You can also send a Chat Message directly to the Seller";
+"Buyer with highest bid will be winner" = "Buyer with highest bid will be winner";
+"View Offer History" = "View Offer History";
+"Rate Your Experience" = "Rate Your Experience";
+"Rate Now" = "Rate Now";
+"Report item" = "Report item";
+"End Listing" = "End Listing";
+"Accept Offers" = "Accept Offers";
+"Stop Accept Offers" = "Stop Accept Offers";
+"Stop New Orders" = "Stop New Orders";
+"Get New Orders" = "Get New Orders";
+"Set Stock Quantity" = "Set Stock Quantity";
+"Hide Product" = "Hide Product";
+"Show Product" = "Show Product";
+"List Item" = "List Item";
+"Re-list Item" = "Re-list Item";
+"Turbo Charge" = "Turbo Charge";
+"Edit Listing" = "Edit Listing";
+"View Counter Offer" = "View Counter Offer";
+"Mark Paid" = "Mark Paid";
+"Marked Paid" = "Marked Paid";
+"Seller Marked this item as Paid" = "Seller Marked this item as Paid";
+
+// Seller Profile VC
+"Seller Profile" = "Seller Profile";
+"You have successfully added seller to your following list. We will notify you about seller's each new listing" = "You have successfully added seller to your following list. We will notify you about seller's each new listing";
+"FollowingsSPVC" = "Followings";
+"You have un-followed the seller, you can follow again any time" = "You have un-followed the seller, you can follow again any time";
+"Block Person" = "Block Person";
+"Are you sure you want to block this person? You both won't be able to see items from each other" = "Are you sure you want to block this person? You both won't be able to see items from each other";
+"BlockSPVC" = "Block";
+"Cancel" = "Cancel";
+"User has Blocked Successfully" = "User has Blocked Successfully";
+"Sorry for the inconvenience, You won't be shown any items listed by this user" = "Sorry for the inconvenience, You won't be shown any items listed by this user";
+"Un-follow" = "Un-follow";
+"Follow" = "Follow";
+"My Profile" = "My Profile";
+"NotRatedYetSPVC" = "Not rated yet";
+"ProductsSPVC" = "Products";
+"FollowersSPVC" = "Followers";
+"Block" = "Block";
+
+//  Report Item
+"Please Share your Thoughts about this item" = "Please Share your Thoughts about this item";
+"Report item" = "Report item";
+"Item Reported Successfully" = "Item Reported Successfully";
+"Item is reported to Customer Support, they will review the item and take action accordingly . Thanks for your co-operation" = "Item is reported to Customer Support, they will review the item and take action accordingly . Thanks for your co-operation";
+
+// ProductDetailsVC
+"Check out this item that i found on The Sell4Bids Marketplace" = "Check out this item that i found on The Sell4Bids Marketplace";
+"Internal Error" = "Internal Error";
+"Invalid Product Data" = "Invalid Product Data";
+"Empty Text Field" = "Empty Text Field";
+"Please enter bid amount to place a bid" = "Please enter bid amount to place a bid";
+"Error" = "Error";
+"Please enter expected Salary Into text field" = "Please enter expected Salary Into text field";
+"Sorry, Internal Error occured. Error Code: PDVC_BSJOTapped" = "Sorry, Internal Error occured. Error Code: PDVC_BSJOTapped";
+"Your offer has been sent to the employer. Please wait for the employer to respond. You can also send a Chat Message directly to the Employer" = "Your offer has been sent to the employer. Please wait for the employer to respond. You can also send a Chat Message directly to the Employer";
+"Seller has stopped accepting Offers on this product" = "Seller has stopped accepting Offers on this product";
+"Offers Stopped" = "Offers Stopped";
+"Something is Wrong" = "Something is Wrong";
+"Seller has stopped Accepting orders for this Product" = "Seller has stopped Accepting orders for this Product";
+"Sorry" = "Sorry";
+"Currently, this item is out of stock. You can send a personal message to seller to inquire about more stock" = "Currently, this item is out of stock. You can send a personal message to seller to inquire about more stock";
+"Out of Stock" = "Out of Stock";
+"Time Expired" = "Time Expired";
+"Sorry, You missed out on this item" = "Sorry, You missed out on this item";
+"Later" = "Later";
+"Database Error" = "Database Error";
+"Database Operation Failed: " = "Database Operation Failed: ";
+"Your offer has been sent to employer. Please wait for the employer to respond. You can also send a Chat Message directly to the Employer" = "Your offer has been sent to employer. Please wait for the employer to respond. You can also send a Chat Message directly to the Employer";
+"Are you sure you want to send your Counter Offer to seller at" = "Are you sure you want to send your Counter Offer to seller at";
+"Please enter price per item to continue" = "Please enter price per item to continue";
+"Please enter quantity to continue" = "Please enter quantity to continue";
+
+// RelistPopUp
+"SUCCESSFULL" = "SUCCESSFULL";
+"Your item Re-listed Successfully" = "Your item Re-listed Successfully";
+"OK" = "OK";
+"Please select feasible duration" = "Please select feasible duration";
+"Reserve Price can never be lesser than Start Price" = "Reserve Price can never be lesser than Start Price";
+"Some Inernal Error has occeured" = "Some Inernal Error has occeured";
+"Please enter Numbers only" = "Please enter Numbers only";
+
+// Edit Listing VC
+"Please enter required number of characters" = "Please enter required number of characters";
+"Please enter minimum 20 and maximum 1500 characters" = "Please enter minimum 20 and maximum 1500 characters";
+"Please enter minimum 5 and maximum 20 characters" = "Please enter minimum 5 and maximum 20 characters";
+"Please enter minimum 1 and maximum 6 characters" = "Please enter minimum 1 and maximum 6 characters";
+"Edit listing successfully completed." = "Edit listing successfully completed";
+"Edit Listing not completed." = "Edit Listing not completed";
+
+// FilterVC
+"Sorry, No items found. Try searching with different filters" = "Sorry, No items found. Try searching with different filters";
+
+
+"Reset All" = "Reset All";
+"Max Price must be greater than Min Price" = "Max Price must be greater than Min Price";
+"Zip Code not found!" = "Zip Code not found!";
+
+"Items you list for sale, appear here" = "Items you list for sale, appear here";
+"Items you are currently in the process of buying and have bid on, appear here" = "Items you are currently in the process of buying and have bid on, appear here";
+"Items you buy or win after bidding, appear here" = "Items you buy or win after bidding, appear here";
+"People, who follow you, appear here" = "People, who follow you, appear here";

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Item_Navigation_barview" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lwr-9f-j2W">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TCO-4A-J9n">
+                            <rect key="frame" x="0.0" y="0.0" width="315" height="65"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AY3-w1-vCP">
+                                    <rect key="frame" x="0.0" y="7.5" width="50" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVT-Wd-hAr">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="6Sg-0T-aCf"/>
+                                            </constraints>
+                                            <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                            <state key="normal" image="BackArrow"/>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="mIy-CS-tbh"/>
+                                    </constraints>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gZG-FV-7bc">
+                                    <rect key="frame" x="50" y="7.5" width="50" height="50"/>
+                                    <subviews>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIT-dX-ASi">
+                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="bXf-97-7w7"/>
+                                            </constraints>
+                                            <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                            <state key="normal" image="Sell4BidsIcon192"/>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="Ej9-eA-Cn0"/>
+                                        <constraint firstAttribute="height" constant="50" id="xx1-e9-Let"/>
+                                    </constraints>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uPk-rc-KOO">
+                                    <rect key="frame" x="100" y="0.0" width="215" height="65"/>
+                                    <subviews>
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nN6-WT-bjB">
+                                            <rect key="frame" x="5" y="0.0" width="205" height="65"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="nN6-WT-bjB" firstAttribute="leading" secondItem="uPk-rc-KOO" secondAttribute="leading" constant="5" id="BqZ-s9-lpg"/>
+                                        <constraint firstItem="nN6-WT-bjB" firstAttribute="top" secondItem="uPk-rc-KOO" secondAttribute="top" id="c0O-Va-TNh"/>
+                                        <constraint firstAttribute="bottom" secondItem="nN6-WT-bjB" secondAttribute="bottom" id="hzz-N5-R2G"/>
+                                        <constraint firstAttribute="trailing" secondItem="nN6-WT-bjB" secondAttribute="trailing" constant="5" id="sNq-xx-atB"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qO7-BH-LYo">
+                            <rect key="frame" x="315" y="7.5" width="60" height="50"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Aci-vu-4s9">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxd-Ck-NSw">
+                                            <rect key="frame" x="1" y="0.0" width="49" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="NUE-sd-ZI0"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                            <state key="normal" title="Invite">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="tTn-3d-Zsx"/>
+                                    </constraints>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="aoO-XP-pm0">
+                                    <rect key="frame" x="60" y="0.0" width="0.0" height="50"/>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Lwr-9f-j2W" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="DQe-Bx-oH7"/>
+                <constraint firstItem="Lwr-9f-j2W" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="P3R-sf-PLc"/>
+                <constraint firstAttribute="trailing" secondItem="Lwr-9f-j2W" secondAttribute="trailing" id="lhq-NM-Q4I"/>
+                <constraint firstItem="Lwr-9f-j2W" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="zb1-1q-fXf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="BackBtn" destination="gVT-Wd-hAr" id="AYs-0G-WMN"/>
+                <outlet property="HomeBtn" destination="dxd-Ck-NSw" id="6yE-id-Grh"/>
+                <outlet property="ItemTitle" destination="nN6-WT-bjB" id="WR9-tV-TWy"/>
+                <outlet property="MovetoHome" destination="vIT-dX-ASi" id="6yj-IW-FsY"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="143"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackArrow" width="64" height="64"/>
+        <image name="Sell4BidsIcon192" width="96" height="96"/>
+    </resources>
+</document>

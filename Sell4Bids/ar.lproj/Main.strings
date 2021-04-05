@@ -1,0 +1,156 @@
+
+/* Class = "UILabel"; text = "Submit your email address and we will send you a verification code to reset your password."; ObjectID = "0Bb-aJ-yh6"; */
+"0Bb-aJ-yh6.text" = "Submit your email address and we will send you a verification code to reset your password.";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "0DJ-4h-emK"; */
+"0DJ-4h-emK.placeholder" = "Full Name";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "1BA-8X-FqD"; */
+"1BA-8X-FqD.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Enter your new password and confirm password."; ObjectID = "2ES-RY-kLt"; */
+"2ES-RY-kLt.text" = "Enter your new password and confirm password.";
+
+/* Class = "UILabel"; text = "and"; ObjectID = "2WG-zj-WYA"; */
+"2WG-zj-WYA.text" = "and";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "3cf-3A-Mfe"; */
+"3cf-3A-Mfe.normalTitle" = "Sign up";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "58o-hf-fDQ"; */
+"58o-hf-fDQ.placeholder" = "Email Address";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "6Ji-rV-KYB"; */
+"6Ji-rV-KYB.placeholder" = "Password";
+
+/* Class = "UINavigationItem"; title = "Notifications"; ObjectID = "8pT-9a-aNc"; */
+"8pT-9a-aNc.title" = "Notifications";
+
+/* Class = "UILabel"; text = "By signing up or logging in, you agree to our "; ObjectID = "9dz-ZM-DbY"; */
+"9dz-ZM-DbY.text" = "By signing up or logging in, you agree to our ";
+
+/* Class = "UIButton"; normalTitle = "Term of Use"; ObjectID = "AKh-Qk-jzE"; */
+"AKh-Qk-jzE.normalTitle" = "Term of Use";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "CJI-Zv-7lq"; */
+"CJI-Zv-7lq.placeholder" = "Confirm Password";
+
+/* Class = "UINavigationItem"; title = "Categories"; ObjectID = "CoH-w3-E61"; */
+"CoH-w3-E61.title" = "Categories";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "DD8-IM-JQ7"; */
+"DD8-IM-JQ7.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Login with Facebook"; ObjectID = "DNx-FB-5pX"; */
+"DNx-FB-5pX.normalTitle" = "Login with Facebook";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "ENk-Wy-U92"; */
+"ENk-Wy-U92.text" = "label";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "EvM-2e-itb"; */
+"EvM-2e-itb.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Hqg-XW-gL9"; */
+"Hqg-XW-gL9.normalTitle" = "Submit";
+
+/* Class = "UITabBarItem"; title = "Notifications"; ObjectID = "Hwe-xR-eHv"; */
+"Hwe-xR-eHv.title" = "Notifications";
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "Kyq-39-p2j"; */
+"Kyq-39-p2j.normalTitle" = "Facebook";
+
+/* Class = "UIButton"; normalTitle = "Login with Facebook"; ObjectID = "Lmm-t1-A0m"; */
+"Lmm-t1-A0m.normalTitle" = "Login with Facebook";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "ORa-dn-Fgj"; */
+"ORa-dn-Fgj.normalTitle" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SrN-bC-Tw2"; */
+"SrN-bC-Tw2.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "TLn-V5-UvD"; */
+"TLn-V5-UvD.normalTitle" = "Sign up";
+
+/* Class = "UILabel"; text = "Or login using your SELL4BIDS account"; ObjectID = "TTO-bh-NPt"; */
+"TTO-bh-NPt.text" = "Or login using your SELL4BIDS account";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Vxy-Nq-WVa"; */
+"Vxy-Nq-WVa.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "WZk-uQ-mHh"; */
+"WZk-uQ-mHh.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Email Address"; ObjectID = "Xi1-U0-mxu"; */
+"Xi1-U0-mxu.text" = "Email Address";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "Zjo-Xa-Ji4"; */
+"Zjo-Xa-Ji4.normalTitle" = "Submit";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "aDZ-8R-5HG"; */
+"aDZ-8R-5HG.placeholder" = "Email Address";
+
+/* Class = "UILabel"; text = "Enter your email address below to recieve a verification code to reset password."; ObjectID = "bSm-s5-dgh"; */
+"bSm-s5-dgh.text" = "Enter your email address below to recieve a verification code to reset password.";
+
+/* Class = "UIButton"; normalTitle = "Sign in With Apple"; ObjectID = "cP2-ly-RMI"; */
+"cP2-ly-RMI.normalTitle" = "Sign in With Apple";
+
+/* Class = "UIButton"; normalTitle = "Login with Google"; ObjectID = "d0m-yF-NEH"; */
+"d0m-yF-NEH.normalTitle" = "Login with Google";
+
+/* Class = "UILabel"; text = "3 days ago."; ObjectID = "eD8-oC-0g7"; */
+"eD8-oC-0g7.text" = "3 days ago.";
+
+/* Class = "UIButton"; normalTitle = "Login with Google"; ObjectID = "eLy-Ou-6Z9"; */
+"eLy-Ou-6Z9.normalTitle" = "Login with Google";
+
+/* Class = "UIButton"; normalTitle = "Login with Google"; ObjectID = "fzY-sz-DOm"; */
+"fzY-sz-DOm.normalTitle" = "Login with Google";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "g9c-yO-FBL"; */
+"g9c-yO-FBL.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "Google"; ObjectID = "gwy-V0-caK"; */
+"gwy-V0-caK.normalTitle" = "Google";
+
+/* Class = "UILabel"; text = "Or sign up using your email"; ObjectID = "hTX-Rs-4WH"; */
+"hTX-Rs-4WH.text" = "Or sign up using your email";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "j0n-Fo-DB0"; */
+"j0n-Fo-DB0.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jYf-T5-hxL"; */
+"jYf-T5-hxL.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "juE-Lu-APB"; */
+"juE-Lu-APB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Login With Social"; ObjectID = "jyv-je-HsB"; */
+"jyv-je-HsB.text" = "Login With Social";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "m8S-47-9BX"; */
+"m8S-47-9BX.text" = "label";
+
+/* Class = "UITabBarItem"; title = "Categories"; ObjectID = "nLm-cn-PqY"; */
+"nLm-cn-PqY.title" = "Categories";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "pGO-m7-DeY"; */
+"pGO-m7-DeY.normalTitle" = "Forgot Password?";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Apple"; ObjectID = "rMk-5F-8pz"; */
+"rMk-5F-8pz.normalTitle" = "Sign in with Apple";
+
+/* Class = "UIButton"; normalTitle = "SignUp"; ObjectID = "rky-2S-hpP"; */
+"rky-2S-hpP.normalTitle" = "SignUp";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u9f-G6-iHV"; */
+"u9f-G6-iHV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "notification text"; ObjectID = "uMF-8W-9QV"; */
+"uMF-8W-9QV.text" = "notification text";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "z4U-zp-Tvj"; */
+"z4U-zp-Tvj.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Sign in  with Apple"; ObjectID = "zde-vU-3wQ"; */
+"zde-vU-3wQ.normalTitle" = "Sign in  with Apple";

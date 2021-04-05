@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TakeCategoryCustomCell" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Io4-ly-cIL">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8g6-9I-E0m">
+                            <rect key="frame" x="5" y="5" width="365" height="100"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K8-va-UZ9">
+                                    <rect key="frame" x="0.0" y="0.0" width="365" height="43"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                    </variation>
+                                </label>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Select Category" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d0a-q8-atT" customClass="textFieldWithNoCopyPasteSelect" customModule="Sell4Bids" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="48" width="365" height="52"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="image" keyPath="RightImage" value="dropArrow"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="RightPadding">
+                                            <real key="value" value="10"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="BorderWidth">
+                                            <real key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="BorderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    </variation>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="8g6-9I-E0m" secondAttribute="trailing" constant="5" id="357-In-3NX"/>
+                        <constraint firstItem="8g6-9I-E0m" firstAttribute="top" secondItem="Io4-ly-cIL" secondAttribute="top" constant="5" id="7j3-Jg-ZoG"/>
+                        <constraint firstItem="8g6-9I-E0m" firstAttribute="leading" secondItem="Io4-ly-cIL" secondAttribute="leading" constant="5" id="BrV-Dp-llf"/>
+                        <constraint firstAttribute="bottom" secondItem="8g6-9I-E0m" secondAttribute="bottom" constant="5" id="jfg-P5-Bgr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Io4-ly-cIL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NvV-kc-EiC"/>
+                <constraint firstItem="Io4-ly-cIL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XE5-8s-0cW"/>
+                <constraint firstAttribute="trailing" secondItem="Io4-ly-cIL" secondAttribute="trailing" id="rxN-Xr-XUc"/>
+                <constraint firstAttribute="bottom" secondItem="Io4-ly-cIL" secondAttribute="bottom" id="smn-3H-4ws"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="jobCategoryLbl" destination="6K8-va-UZ9" id="r5J-4B-mq1"/>
+                <outlet property="jobSelectCategoryTextField" destination="d0a-q8-atT" id="1G8-SG-gN0"/>
+            </connections>
+            <point key="canvasLocation" x="-10.4" y="108.84557721139431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dropArrow" width="512" height="379"/>
+    </resources>
+</document>

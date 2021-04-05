@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ServiceDescriptionCustomVC" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIc-ZZ-zn4">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SBD-0w-otF">
+                            <rect key="frame" x="5" y="5" width="365" height="190"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd8-MN-prq">
+                                    <rect key="frame" x="0.0" y="0.0" width="365" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="vv3-ea-W3W"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    </variation>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jpd-y0-mjM">
+                                    <rect key="frame" x="0.0" y="50" width="365" height="140"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.BorderWidth">
+                                            <real key="value" value="0.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="layer.BorderColor">
+                                            <color key="value" red="0.45882352939999999" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    </variation>
+                                </textView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="SBD-0w-otF" secondAttribute="trailing" constant="5" id="8ON-E9-lsZ"/>
+                        <constraint firstItem="SBD-0w-otF" firstAttribute="top" secondItem="cIc-ZZ-zn4" secondAttribute="top" constant="5" id="BIf-9k-M2y"/>
+                        <constraint firstItem="SBD-0w-otF" firstAttribute="leading" secondItem="cIc-ZZ-zn4" secondAttribute="leading" constant="5" id="ncq-2z-9QD"/>
+                        <constraint firstAttribute="bottom" secondItem="SBD-0w-otF" secondAttribute="bottom" constant="5" id="ta4-WN-IIP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cIc-ZZ-zn4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="0R8-to-KRQ"/>
+                <constraint firstItem="cIc-ZZ-zn4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="F3b-5N-1Ky"/>
+                <constraint firstItem="cIc-ZZ-zn4" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="oRW-dc-QPi"/>
+                <constraint firstItem="cIc-ZZ-zn4" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="u9U-rj-IAh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="ServiceDescriptionLbl" destination="Zd8-MN-prq" id="bmu-Xd-csb"/>
+                <outlet property="ServiceDescriptionTextView" destination="Jpd-y0-mjM" id="eTO-Zk-TiX"/>
+            </connections>
+        </view>
+    </objects>
+</document>

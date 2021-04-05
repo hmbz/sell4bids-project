@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SellerCounerOffer" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1u0-PY-mlS">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="300"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Bx-a9-dPF">
+                            <rect key="frame" x="5" y="5" width="340" height="60"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-App-29x29" translatesAutoresizingMaskIntoConstraints="NO" id="Fox-Hm-cUG">
+                                    <rect key="frame" x="20" y="5" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="ogJ-a7-IMP"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counter Offer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bv8-rl-G0f">
+                                    <rect key="frame" x="98.666666666666671" y="5" width="142.66666666666663" height="50"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    </variation>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1v-Zt-umu">
+                                    <rect key="frame" x="312" y="3" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="F5g-9K-BPQ"/>
+                                        <constraint firstAttribute="height" constant="25" id="uUU-5Q-XVS"/>
+                                    </constraints>
+                                    <state key="normal" title="Button" image="cross_128_20_red"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="D1v-Zt-umu" firstAttribute="top" secondItem="3Bx-a9-dPF" secondAttribute="top" constant="3" id="4Gc-vo-FR4"/>
+                                <constraint firstAttribute="trailing" secondItem="D1v-Zt-umu" secondAttribute="trailing" constant="3" id="BEQ-yy-NfR"/>
+                                <constraint firstAttribute="height" constant="60" id="C5K-1a-Cvk"/>
+                                <constraint firstAttribute="bottom" secondItem="Fox-Hm-cUG" secondAttribute="bottom" constant="5" id="E6C-mK-VxB"/>
+                                <constraint firstItem="bv8-rl-G0f" firstAttribute="centerY" secondItem="3Bx-a9-dPF" secondAttribute="centerY" id="Ryv-em-JTN"/>
+                                <constraint firstItem="bv8-rl-G0f" firstAttribute="centerX" secondItem="3Bx-a9-dPF" secondAttribute="centerX" id="Wah-fo-u6e"/>
+                                <constraint firstItem="Fox-Hm-cUG" firstAttribute="leading" secondItem="3Bx-a9-dPF" secondAttribute="leading" constant="20" id="kQt-vh-gxm"/>
+                                <constraint firstItem="Fox-Hm-cUG" firstAttribute="top" secondItem="3Bx-a9-dPF" secondAttribute="top" constant="5" id="m3f-c8-4K2"/>
+                                <constraint firstItem="bv8-rl-G0f" firstAttribute="height" secondItem="Fox-Hm-cUG" secondAttribute="height" id="o8W-Sb-RPf"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You received counter offer for Check Item. Seller is ready to sell 1 item(s) at PKR Rs120 per item." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGs-y1-0Rc">
+                            <rect key="frame" x="10" y="70" width="330" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="QZB-w0-C5f"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rB0-SJ-UPj">
+                            <rect key="frame" x="10" y="180" width="330" height="50"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUH-OT-wAP">
+                                    <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="50"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <state key="normal" title="Accept">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="25"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oaa-5T-P9G">
+                                    <rect key="frame" x="167.66666666666663" y="0.0" width="162.33333333333337" height="50"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                    <state key="normal" title="Reject">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="25"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="HFw-pu-rbR"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="62M-Q7-MSO">
+                            <rect key="frame" x="10" y="235" width="330" height="50"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jb4-1Z-kHg">
+                                    <rect key="frame" x="0.0" y="0.0" width="330" height="50"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <state key="normal" title="Counter Offer">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="25"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="TUH-2M-3dr"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="0f6-uz-V5D"/>
+                        <constraint firstItem="3Bx-a9-dPF" firstAttribute="leading" secondItem="1u0-PY-mlS" secondAttribute="leading" constant="5" id="Knw-3O-5aB"/>
+                        <constraint firstAttribute="trailing" secondItem="aGs-y1-0Rc" secondAttribute="trailing" constant="10" id="PJP-1m-Dxf"/>
+                        <constraint firstItem="rB0-SJ-UPj" firstAttribute="leading" secondItem="1u0-PY-mlS" secondAttribute="leading" constant="10" id="UMD-Ke-hqW"/>
+                        <constraint firstItem="62M-Q7-MSO" firstAttribute="top" secondItem="rB0-SJ-UPj" secondAttribute="bottom" constant="5" id="X9S-NU-TOz"/>
+                        <constraint firstItem="aGs-y1-0Rc" firstAttribute="leading" secondItem="1u0-PY-mlS" secondAttribute="leading" constant="10" id="YRZ-2d-9bh"/>
+                        <constraint firstItem="3Bx-a9-dPF" firstAttribute="top" secondItem="1u0-PY-mlS" secondAttribute="top" constant="5" id="aT5-10-Yqr"/>
+                        <constraint firstAttribute="trailing" secondItem="rB0-SJ-UPj" secondAttribute="trailing" constant="10" id="dPK-sR-wkI"/>
+                        <constraint firstAttribute="trailing" secondItem="3Bx-a9-dPF" secondAttribute="trailing" constant="5" id="dYr-3Q-v9o"/>
+                        <constraint firstAttribute="trailing" secondItem="62M-Q7-MSO" secondAttribute="trailing" constant="10" id="lzg-IP-nDm"/>
+                        <constraint firstItem="aGs-y1-0Rc" firstAttribute="top" secondItem="3Bx-a9-dPF" secondAttribute="bottom" constant="5" id="v1n-H6-jU2"/>
+                        <constraint firstItem="rB0-SJ-UPj" firstAttribute="top" secondItem="aGs-y1-0Rc" secondAttribute="bottom" constant="10" id="vgI-Jr-Cmp"/>
+                        <constraint firstItem="62M-Q7-MSO" firstAttribute="leading" secondItem="1u0-PY-mlS" secondAttribute="leading" constant="10" id="zMn-nb-HBq"/>
+                        <constraint firstAttribute="width" constant="350" id="zSV-lT-re7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1u0-PY-mlS" secondAttribute="trailing" id="Yso-ck-WJQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1u0-PY-mlS" secondAttribute="bottom" id="fFO-Yq-oPD"/>
+                <constraint firstItem="1u0-PY-mlS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="m8F-Cj-vQu"/>
+                <constraint firstItem="1u0-PY-mlS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="rRy-Dp-Gno"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="CloseBtn" destination="D1v-Zt-umu" id="Hfb-km-r3v"/>
+                <outlet property="acceptBtn" destination="qUH-OT-wAP" id="NTV-gB-OSl"/>
+                <outlet property="counterOfferBtn" destination="Jb4-1Z-kHg" id="kcx-l2-4a3"/>
+                <outlet property="rejectBtn" destination="Oaa-5T-P9G" id="ah6-FP-Xra"/>
+                <outlet property="textLabel" destination="aGs-y1-0Rc" id="52i-8J-Bf1"/>
+            </connections>
+            <point key="canvasLocation" x="111.59420289855073" y="102.71739130434783"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon-App-29x29" width="29" height="29"/>
+        <image name="cross_128_20_red" width="128" height="128"/>
+    </resources>
+</document>

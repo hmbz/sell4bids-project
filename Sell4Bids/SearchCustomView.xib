@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SearchCustomView" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="550"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="ZeN-Lf-Y0l">
+                    <rect key="frame" x="0.0" y="3" width="300" height="56"/>
+                    <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUM-lQ-dMw">
+                    <rect key="frame" x="275" y="0.0" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="KZm-0X-sqY"/>
+                        <constraint firstAttribute="height" constant="25" id="uW8-CS-qCw"/>
+                    </constraints>
+                    <state key="normal" image="cross_128_20_red"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ict-Wr-wVx">
+                    <rect key="frame" x="0.0" y="59" width="300" height="491"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="59c-Mu-2ht">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="491"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="59c-Mu-2ht" firstAttribute="leading" secondItem="ict-Wr-wVx" secondAttribute="leading" id="Osh-Mf-KE0"/>
+                        <constraint firstAttribute="height" constant="491" id="aRU-xo-nOf">
+                            <variation key="heightClass=regular-widthClass=regular" constant="900"/>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="59c-Mu-2ht" secondAttribute="trailing" id="df8-NS-uhs"/>
+                        <constraint firstAttribute="width" constant="300" id="eG8-HU-6gB">
+                            <variation key="heightClass=regular-widthClass=regular" constant="600"/>
+                        </constraint>
+                        <constraint firstItem="59c-Mu-2ht" firstAttribute="top" secondItem="ict-Wr-wVx" secondAttribute="top" id="esy-q3-LRI"/>
+                        <constraint firstAttribute="bottom" secondItem="59c-Mu-2ht" secondAttribute="bottom" id="vRJ-DL-vem"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TUM-lQ-dMw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EyV-xt-xpQ"/>
+                <constraint firstItem="TUM-lQ-dMw" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="KXI-py-4z1"/>
+                <constraint firstItem="ZeN-Lf-Y0l" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="M6h-jd-oB6"/>
+                <constraint firstItem="ict-Wr-wVx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="MOS-Qx-HiN"/>
+                <constraint firstItem="ZeN-Lf-Y0l" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YnL-om-fxt"/>
+                <constraint firstItem="ict-Wr-wVx" firstAttribute="top" secondItem="ZeN-Lf-Y0l" secondAttribute="bottom" id="aCi-Cd-nrH"/>
+                <constraint firstItem="ict-Wr-wVx" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="aGN-xl-GNu"/>
+                <constraint firstItem="ict-Wr-wVx" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="fMW-2K-gDf"/>
+                <constraint firstItem="ZeN-Lf-Y0l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="wm0-fr-yRG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="CloseBtn" destination="TUM-lQ-dMw" id="OJ9-xA-0Jp"/>
+                <outlet property="SearchBar" destination="ZeN-Lf-Y0l" id="5dz-qE-IBE"/>
+                <outlet property="SuggestionTableview" destination="59c-Mu-2ht" id="jns-QZ-jRL"/>
+            </connections>
+            <point key="canvasLocation" x="164.80000000000001" y="78.260869565217391"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross_128_20_red" width="96" height="96"/>
+    </resources>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TakeDescriptionCustomCell" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NEu-rr-GXH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="69f-4L-QxH">
+                            <rect key="frame" x="5" y="10" width="365" height="132"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iR-Kt-tgB">
+                                    <rect key="frame" x="0.0" y="0.0" width="365" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="JpO-LV-QR2"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                    </variation>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DeK-rg-COb">
+                                    <rect key="frame" x="0.0" y="49" width="365" height="83"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                    </variation>
+                                </textView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="DeK-rg-COb" firstAttribute="top" secondItem="5iR-Kt-tgB" secondAttribute="bottom" constant="5" id="iFF-ET-NVO"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="69f-4L-QxH" firstAttribute="leading" secondItem="NEu-rr-GXH" secondAttribute="leading" constant="5" id="FTi-Jy-k8b"/>
+                        <constraint firstAttribute="bottom" secondItem="69f-4L-QxH" secondAttribute="bottom" constant="8" id="U9u-wc-4c9"/>
+                        <constraint firstAttribute="trailing" secondItem="69f-4L-QxH" secondAttribute="trailing" constant="5" id="W9P-dy-vfA"/>
+                        <constraint firstItem="69f-4L-QxH" firstAttribute="top" secondItem="NEu-rr-GXH" secondAttribute="top" constant="10" id="q4O-SO-WcA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NEu-rr-GXH" secondAttribute="trailing" id="ASL-g1-Kvg"/>
+                <constraint firstItem="NEu-rr-GXH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Hvg-dh-8GB"/>
+                <constraint firstItem="NEu-rr-GXH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PA4-UD-uWf"/>
+                <constraint firstAttribute="bottom" secondItem="NEu-rr-GXH" secondAttribute="bottom" id="g5m-FW-nAK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="jobDesTextView" destination="DeK-rg-COb" id="FLQ-kc-JyU"/>
+                <outlet property="jobDescriptionLbl" destination="5iR-Kt-tgB" id="fmL-ru-oAk"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="132.23388305847078"/>
+        </view>
+    </objects>
+</document>

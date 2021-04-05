@@ -1,0 +1,368 @@
+/* 
+  Localizable.strings
+  Sell4Bids
+
+  Created by admin on 1/29/19.
+  Copyright © 2019 admin. All rights reserved.
+*/
+
+// Home screen
+"home" = "گھر";
+"Home" = "گھر";
+"Sell Now" = "اب فروخت کریں";
+"Browse Categories" = "زمرہ جات کو براؤز کریں";
+"My Sell4Bids" = "Sell4Bids میری";
+"Jobs" = "نوکریاں";
+"My Chat" = "میری چیٹ";
+"Bids" = "بولی";
+"Buying" = "خریدنا";
+"Bought" = "خریدا";
+"Search Filters" = "فلٹر تلاش کریں";
+"Wins" = "جیت
+";
+
+"My Watch List" = "میری واچ کی فہرست";
+"My Profile" = "میری پروفائل";
+"Notifications" = "اطلاعات";
+"What is Sell4Bids?" = "کیا ہے؟ Sell4Bids";
+"How it Works?" = "یہ کیسے کام کرتا ہے؟";
+"Establish Contact" = "رابطہ قائم کریں";
+"About Sell4Bids" =  "کے بارے میں Sell4Bids";
+"Terms and conditions" = "شرائط و ضوابط";
+"Privacy Policy" = "پرائیویسی پالیسی";
+"Legal" = "قانونی";
+"Rate Us" = "ہمیں شرح";
+"Share this App" = "اس اپلی کیشن کا اشتراک کریں";
+"Logout" = "لاگ آوٹ";
+"FeedBack" = "فیڈ بیک";
+
+// user profile detail
+"editDetailBtnUPD" = "تفصیل میں ترمیم کریں";
+"changePhotoUPD" = "تصویر تبدیل کریں";
+"ratingLblUPD" = "درجہ بندی";
+"detailInfoLblUPD" = "تفصیل معلومات";
+"emailLblUPD" = "ای میل";
+"zipCodeLblUPD" = "زپ کوڈ";
+"stateLocationLblUPD" = "ریاستی / مقام";
+"emailNotificationPreferenceLblUPD" = "ای میل کی اطلاع کی ترجیح";
+"buyingActivityLblUPD" = "خریدنے کی صلاحیت";
+"chatMesageEmailLblUPD" = "مسج ای میل چیٹ کریں";
+"sellingActivityLblUPD" = "فروخت کی سرگرمی";
+"sell4bidsInfoLblUPD" = "Sell4Bids معلومات";
+"watchingLblUPD" = "دیکھ رہا ہوں";
+"followersLblUPD" = "پیروکاروں";
+"followingLblUPD" = "درج ذیل";
+"totalListingsInfoUPD" = "کل لسٹنگ انفارمیشن";
+"buyingandBidsLblUPD" = "خریداری اور بولی";
+"boughtandWinsLblUPD" = "خریدا اور جیت";
+"unreadMessageLblUPD" = "ناپسندیدہ پیغام";
+"unreadNotificationLblUPD" = "بغیر پڑھنے کی اطلاع";
+
+
+// EditingUserProfileVC
+"EnterDetailsEUP" = "تفصیلات درج کریں";
+"FullNameEUP" = "پورا نام";
+"ZipCodeEUP" = "زپ کوڈ";
+"CityandStateEUP" = "زپ کوڈ سے شہر اور ریاست کو اپ ڈیٹ کیا جائے گا";
+"UpdateEUP" = "اپ ڈیٹ";
+
+// ChangeImagePopUpVC
+"TakePhotoBtnCIPU" = "تصویر لو";
+"SelectPhotoCIPU" = "تصویر منتخب کریں";
+
+// FilterVC
+"DoneBtnFVC" = "ہو گیا";
+"CategoryFVC" = "قسم";
+"BuyingOptionFVC" = "اختیار خریدنا";
+"CountryFVC" = "ملک";
+"ZipCodeFVC" = "زپ کوڈ";
+"CityandStateFVC" = "زپ کوڈ سے سٹی اور سیٹ مل جائے گی";
+"CityFVC" = "شہر";
+"ChangeCityFVC" = "شہر کو تبدیل کرنے کے لئے زپ کا کوڈ تبدیل کریں";
+"StateFVC" = "حالت";
+"ChangeZipCodetoChangeStateFVC" = "ریاست تبدیل کرنے کے لئے زپ کوڈ تبدیل کریں";
+"AnyFVC" = "کسی بھی";
+"PriceRangeFVC" = "قیمت کی حد";
+"ConditionFVC" = "حالت";
+
+
+// SellNowStep1Vc
+"SelectPictureSNS1" = "تصویر منتخب کریں";
+"TakePhotoSNS1" = "تصویر لو";
+"SelectPicture2SNS1" = "تصویر منتخب کریں";
+"TakePhoto2SNS1" = "تصویر لو";
+
+// StepTwoVC
+"SelectCategorySTVC" = "زمرہ منتخب کریں";
+"NextBtnSTVC" = "اگلے";
+"CategorySTVC" = "قسم";
+"ConditionTitleLblSTVC" = "حالت";
+"DescriptionSTVC" = "تفصیل";
+"VIMNumberSTVC" = "نمبر VIM";
+
+// Step3VC
+"NextS3VC" = "اگلے";
+"SalaryS3VC" = "تنخواہ";
+"PriceS3VC" = "قیمت";
+"QuantityS3VC" = "مقدار";
+"ListIndefinitely" = "غیر یقینی طور پر فہرست";
+"ListingDuration" = "فہرست سازی کا دورانیہ";
+"AcceptOffers" = "پیشکش قبول کرتے ہیں";
+"AutomaticRelisting" = "خودکار تعلقات";
+
+// Step4VC
+"FinishBtnS4VC" = "ختم";
+"SaveS4VC" = "محفوظ کریں";
+"CompanyInformationS4VC" = "کمپنی کی معلومات";
+"LocationFromZipCode" = "مقام";
+"LocateMeS4VC" = "مجھے تلاش کریں";
+"EnterZipCodeS4VC" = "زپ کوڈ درج کریں";
+
+// FinalVC
+"DoneBtnFVC" = "ہو گیا";
+"CongratsFVC" = "مبارک ہو";
+"DoneMessageFVC" = "آپ کا آئٹم کامیابی سے Sell4Bids پر درج کیا گیا ہے";
+"GoodLuckFVC" = "آپ کے لئے اچھی قسمت";
+
+// HomeVC
+"SellorAuctionOffNowHVC" = "اب فروخت یا نیلامی";
+
+// SellingVc
+"SellingTab" = "فروخت";
+
+// Buying or Bought
+"Buying & BidsTab" = "خریدنے اور بولی";
+
+// Bought & Wins
+"Bought & WinsTab" = "خریدا اور جیت";
+
+// Folowers
+"FollowersTab" = "پیروکار";
+// Following
+"FollowingTab" = "پیروی";
+// Block List
+"Block ListTab" = "بلاک فہرست";
+
+//SellerImageVC
+"DoneBtnFVC" = "ہو گیا";
+
+// EndListingVC
+"BtnEndListingEVC" = "اختتام کی فہرست";
+"BtnCancelEVC" = "منسوخ کریں";
+"whyDoWantTOEndItemListingEVC" = "کیوں فہرست ختم کرنا چاہتے ہیں";
+"ReasontoenditemListingEVC" = "شے کی لسٹنگ ختم کرنے کا سبب دے";
+
+"Item is out of stock" = "آئٹم اسٹاک سے باہر ہے";
+"I will re-list later" = "میں بعد میں دوبارہ درج کروں گا";
+"I am not interested to sell" = "مجھے فروخت کرنے میں دلچسپی نہیں ہے";
+"Item is no longer available" = "آئٹم اب دستیاب نہیں ہے";
+"Not receiving desired bids/offers" = "مطلوب بولیاں / پیشکش نہیں ملتی";
+"Other" = "دیگر";
+
+// ProductDetailsVC
+"SendBtn" = "بھیجیں";
+"SendCounterOfferPDVC" = "انسداد پیشکش بھیجیں";
+"OfferAmountPerItemPDVC" = "آئٹم فی صد رقم پیش کریں";
+"QuantityToBuyPDVC" = "مقدار خریدنے کے لئے";
+
+"ChatwSeller" = "بیچنے والے کے ساتھ چیٹ کریں";
+"Chat w Employer" = "ملازم کے ساتھ چیٹ کریں";
+"Buy Now" = "ابھی خریدیں";
+"Apply Now" = "درخواست دیں";
+"OfferNow" = "پیش کرتے ہیں";
+"BidNow" = "بولی";
+
+// Send Report VC
+"WhatYouFoundInappropiateRIVC" = "آپ کو اس شے میں کونسی غیر معمولی چیز ملی ہے";
+"SendReport" = "رپورٹ بھیجیں";
+
+// OfferPopUp
+"SendOfferBtn" = "پیشکش بھیجیں";
+"SendOrderBuyNowBtn" = "آرڈر بھیجیں";
+"OfferAmountLbl" = "آئٹم فی صد رقم پیش کریں";
+"QuantityLbl" = "مقدار خریدنے کے لئے";
+"QuantityToBuy" = "مقدار خریدنے کے لئے";
+
+// UpdateProdQuantityPopUpVC
+"SetQuantity" = "مقدار مقرر کریں";
+"QuantityinStock" = "اسٹاک میں مقدار";
+
+"Update" = "اپ ڈیٹ";
+"Start Price" = "قیمتوں کا تعین شروع کریں";
+"Reserve Price" = "ریزرو قیمتوں کا تعین";
+"Number of Days" = "دنوں کی تعداد";
+
+// SendCounterOfferPopUp
+"Offer amount Per item" = "ہر چیز کی رقم پیش کرنا";
+"Quantity to Sell" = "مقدار";
+"Send Counter Offer btn" = "انسداد پیشکش بھیجیں";
+
+// GMSPlacePickerController
+"SelectAgain" = "دوبارہ منتخب کریں";
+"ShereLocation" = "مقام کا اشتراک کریں";
+"address of Place" = "جگہ کا پتہ";
+
+// EditListingVC
+"Update All" = "تمام تجدید کریں";
+"Title" = "عنوان";
+"Description" = "تفصیل";
+"Condition" = "حالت";
+"ConditionValue" = "نیا / اوپن باکس";
+"Price" = "قیمت";
+"Quantity in Stock" = "اسٹاک میں مقدار";
+"Accept Offers" = "پیشکش قبول کرتے ہیں";
+"Automatic Relisting" = "خودکار تعلقات";
+"List Indefinitely" = "غیر یقینی طور پر فہرست";
+"Reserve Price" = "ریزرو قیمت";
+"Starting Price" = "قیمت شروع";
+
+// WatchingVC
+"Watch List" = "فہرست دیکھیں";
+
+// My Chat VC
+"My Chat" = "چیٹ";
+
+// ViewOfferVC
+"No Orders received " = "کوئی حکم نہیں ملا";
+"Offers" = "پیشکش";
+"You Successfully shared your location with Buyer." = "آپ نے کامیابی سے اپنے مقام کو خریدار کے ساتھ اشتراک کیا";
+"Update Location" = "مقام اپ ڈیٹ کریں";
+"Rating has been Updated" = "درجہ بندی کو اپ ڈیٹ کر دیا گیا ہے";
+"MySell4Bids Rating" = "MySell4Bids درجہ بندی";
+"You rated this user." = "آپ نے اس صارف کا درجہ لیا";
+"Rate the User by Tapping on Stars." = "ستارے پر ٹیپ کرکے صارف کی درجہ بندی کریں";
+"Yes" = "جی ہاں";
+"No" = "نہیں";
+"Sorry, Could not share your location with buyer because your product's Details could not be fetched" = "معذرت، آپ کے مقام کو خریدار کے ساتھ اشتراک نہیں کیا جاسکتا کیونکہ آپ کی مصنوعات کی تفصیلات نہیں مل سکی";
+"Sorry, could not share your location because buyers data could not be fetched" = "افسوس، آپ کے مقام کا اشتراک نہیں کیا جا سکا کیونکہ خریداروں کے اعداد و شمار کو نہیں مل سکا";
+"No address String found" = "کوئی پتہ سٹرنگ نہیں ملا";
+"Sorry, could not share your location. Hint: Database operation failed" = "معذرت، آپ کے مقام کا اشتراک نہیں کر سکا. اشارہ: ڈیٹا بیس کے آپریشن ناکام ہوگیا";
+"Successfully Shared your location with buyer" = "اپنے مقام کو خریدار کے ساتھ کامیابی سے اشتراک کیا";
+"orders" = "احکامات";
+"Sorry, Database Operation Failed" = "افسوس، ڈیٹا بیس آپریشن ناکام ہوگئی";
+"Sorry, No Item left in Stock" = "معذرت، اسٹاک میں کوئی آئٹم باقی نہیں ہے";
+"OrdersVOVC" = "احکامات";
+"Sorry your Product Stock is out of limit" = "معذرت، آپ کی پروڈکٹ اسٹاک کی حد سے باہر ہے";
+
+// Product Detail VC
+"Check out this item that i found on The Sell4Bids Marketplace." = "مارکیٹ میں ملا Sell4Bids اس آئٹم کو چیک کریں جو مجھے";
+"Item has been added to your Watch List" = "آئٹم آپ کی واچ لسٹ میں شامل کردی گئی ہے";
+"My Sell4Bids watch List" = "کی فہرست دیکھیں Sell4Bids میرا";
+"This Item has been Removed from Your Watch List" = "یہ آئٹم آپ کی واچ کی فہرست سے ہٹا دیا گیا ہے";
+"No ratings yet." = "ابھی تک درجہ بندی نہیں ہے";
+
+"Description" = "تفصیل";
+"Condition" = "حالت";
+"Company" = "کمپنی";
+"Benefits" = "فوائد";
+"Employment" = "روزگار";
+"Pay Period" = "ادائیگی کا دور";
+"ShareBtn" = "بانٹیں";
+"Quantity in Stock" = "اسٹاک میں مقدار";
+"AddtoMySell4BidsWatchList" = "کی فہرست Sell4Bids میری فروخت میں شامل کریں";
+"Remove From My Watch List" = "میری واچ کی فہرست سے ہٹا دیں";
+"View Offers" = "پیشکش دیکھیں";
+"View Bidding History" = "بولڈنگ تاریخ دیکھیں";
+"Your offer has been sent to the Seller. Waiting for the seller to respond. You can also send a Chat Message directly to the Seller" = "آپ کا پیشکش بیچنے والے کو بھیجا گیا ہے. بیچنے والا انتظار کرنے کا انتظار کر رہا ہے. آپ بیچنے والے کو براہ راست ایک چیٹ پیغام بھیج سکتے ہیں";
+"Buyer with highest bid will be winner" = "سب سے زیادہ بولی والے خریدار فاتح ہوں گے";
+"You rated this" = "آپ نے یہ درجہ لیا";
+"View Offer History" = "پیشکش کی تاریخ دیکھیں";
+"Rate Your Experience" = "اپنے تجربے کی شرح";
+"Rate Now" = "شرح اب";
+"Report item" = "آئٹم کی رپورٹ";
+"End Listing" = "اختتام کی فہرست";
+"Accept Offers" = "پیشکش قبول کرتے ہیں";
+"Stop Accept Offers" = "پیشکش کو روکنے کے لئے";
+"Stop New Orders" = "نئے احکامات کو روک دو";
+"Get New Orders" = "نئے احکامات حاصل کریں";
+"Set Stock Quantity" = "اسٹاک کی مقدار مقرر کریں";
+"Hide Product" = "پروڈکٹ چھپائیں";
+"Show Product" = "مصنوعات دکھائیں";
+"List Item" = "شے کی فہرست";
+"Re-list Item" = "دوبارہ فہرست آئٹم";
+"Turbo Charge" = "ٹربو چارج";
+"Edit Listing" = "فہرست میں ترمیم کریں";
+"View Counter Offer" = "انسداد پیشکش دیکھیں";
+"Mark Paid" = "نشان لگا دیا گیا ہے";
+"Marked Paid" = "ادا شدہ نشان لگایا گیا ہے";
+"Seller Marked this item as Paid" = "بیچنے والے کو اس آئٹم کو ادائیگی کے طور پر نشان لگا دیا گیا";
+
+// Seller Profile
+"Seller Profile" = "بیچنے والا پروفائل";
+"You have successfully added seller to your following list. We will notify you about seller's each new listing" = "آپ نے اپنی مندرجہ ذیل فہرست میں کامیابی سے بیچنے والے کو شامل کیا ہے. ہم آپ کو ہر نئی لسٹنگ کے بیچنے والے کے بارے میں مطلع کریں گے";
+"FollowingsSPVC" = "فالو کریں";
+"You have un-followed the seller, you can follow again any time" = "آپ نے بیچنے والے کو ناپسند کیا ہے، آپ کسی بھی وقت دوبارہ پیروی کر سکتے ہیں";
+"Block Person" = "بلاک کرنا";
+"Are you sure you want to block this person? You both won't be able to see items from each other" = "کیا آپ واقعی اس شخص کو روکنا چاہتے ہیں؟ آپ دونوں ایک دوسرے سے اشیاء کو دیکھنے کے قابل نہیں ہوں گے";
+"BlockSPVC" = "بلاک";
+"Cancel" = "منسوخ کریں";
+"User has Blocked Successfully" = "صارف نے کامیابی سے بلاک کردیا ہے";
+"Sorry for the inconvenience, You won't be shown any items listed by this user" = "تکلیف کے لئے افسوس آپ اس صارف کی طرف سے درج کردہ اشیاء کو نہیں دکھایا جائے گا";
+"Un-follow" = "غیر فالو کریں";
+"Follow" = "پیروی";
+"My Profile" = "میری پروفائل";
+"NotRatedYetSPVC" = "ابھی تک درجہ بندی نہیں ہے";
+"ProductsSPVC" = "مصنوعات";
+"FollowersSPVC" = "پیروکار";
+"Block" = "بلاک";
+
+// Report Item
+"Please Share your Thoughts about this item" = "اس آئٹم کے بارے میں اپنے خیالات کا اشتراک کریں";
+"Report item" = "اشیاء کی رپورٹ";
+"Item Reported Successfully" = "آئٹم کامیابی سے رپورٹ کی گئی ہے";
+"Item is reported to Customer Support, they will review the item and take action accordingly . Thanks for your co-operation" = "آئٹم کسٹمر سپورٹ کے بارے میں اطلاع دی جاتی ہے، وہ اشیاء کا جائزہ لیں گے اور اس کے مطابق کارروائی کریں گی. آپ کے تعاون کے لئے شکریہ";
+
+// ProductDetailsVC
+"Check out this item that i found on The Sell4Bids Marketplace" = " مارکیٹ پر قائم کیا Sell4Bids اس آئٹم کو چیک کریں کہ میں نے";
+"Internal Error" = "داخلی خامی";
+"Invalid Product Data" = "غلط پروڈکٹ ڈیٹا";
+"Empty Text Field" = "خالی ٹیکسٹ فیلڈ";
+"Please enter bid amount to place a bid" = "براہ کرم بولی کی جگہ بولی رقم درج کریں";
+"Error" = "خرابی";
+"Please enter expected Salary Into text field" = "ٹیکسٹ فیلڈ میں متوقع تنخواہ درج کریں";
+"Your offer has been sent to the employer. Please wait for the employer to respond. You can also send a Chat Message directly to the Employer" = "آپ کا پیشکش آجر کو بھیج دیا گیا ہے. براہ کرم آجر کا جواب دینے کا انتظار کریں. آپ آجر کو براہ راست ایک چیٹ پیغام بھیج سکتے ہیں";
+"Sorry, Internal Error occured" = "معذرت، داخلی خرابی ہوئی";
+"Seller has stopped accepting Offers on this product" = "بیچنے والے کو اس پروڈکٹ کو پیش کرنے کو قبول کرنے سے روک دیا گیا ہے";
+"Offers Stopped" = "بند کرو";
+"Something is Wrong" = "کچھ غلط ہے";
+"Seller has stopped Accepting orders for this Product" = "بیچنے والا اس پروڈکٹ کے لئے احکامات قبول کر رہا ہے";
+"Sorry" = "معذرت";
+"Currently, this item is out of stock. You can send a personal message to seller to inquire about more stock" = "فی الحال، یہ آئٹم اسٹاک سے باہر ہے. مزید اسٹاک کے بارے میں پوچھنا آپ بیچنے والے کو ذاتی پیغام بھیج سکتے ہیں";
+"Out of Stock" = "زخیرے سے باہر";
+"Time Expired" = "وقت ختم ہو گیا";
+"Sorry, You missed out on this item" = "افسوس، آپ اس شے سے باہر نکلے";
+"Later" = "بعد میں";
+"Database Error" = "ڈیٹا بیس کی خرابی";
+"Database Operation Failed: " = "ڈیٹا بیس آپریشن ناکام ہوگیا";
+"Your offer has been sent to employer. Please wait for the employer to respond. You can also send a Chat Message directly to the Employer" = "آپ کا پیشکش آجر کو بھیج دیا گیا ہے. براہ کرم آجر کا جواب دینے کا انتظار کریں. آپ آجر کو براہ راست ایک چیٹ پیغام بھیج سکتے ہیں";
+"Are you sure you want to send your Counter Offer to seller at" = "کیا آپ واقعی اپنے بیچنے والا پیشکش بیچنے والے کو بھیجنا چاہتے ہیں";
+"Please enter price per item to continue" = "براہ کرم جاری رکھنے کے لئے قیمت فی قیمت درج کریں";
+"Please enter quantity to continue" = "جاری رکھنے کیلئے مقدار درج کریں";
+
+// RelistPopUpVC
+"SUCCESSFULL" = "کامیاب";
+"Your item Re-listed Successfully" = "آپ کا آئٹم کامیابی سے دوبارہ درج ہے";
+"OK" = "ٹھیک ہے";
+"Please select feasible duration" = "براہ کرم مناسب مدت کا انتخاب کریں";
+"Reserve Price can never be lesser than Start Price" = "ریزرو قیمت شروع قیمت سے کہیں کم نہیں ہوسکتی ہے";
+"Some Inernal Error has occeured" = "کچھ داخلی خرابی کو روک دیا ہے";
+"Please enter Numbers only" = "صرف نمبر درج کریں";
+
+"Please enter required number of characters" = "برائے مہربانی حروف کے مطلوبہ نمبر درج کریں";
+"Please enter minimum 20 and maximum 1500 characters" = "براہ کرم کم سے کم 20 اور زیادہ سے زیادہ 1500 حروف درج کریں";
+"Please enter minimum 5 and maximum 20 characters" = "براہ کرم کم سے کم 5 اور زیادہ سے زیادہ 20 حروف درج کریں";
+"Please enter minimum 1 and maximum 6 characters" = "براہ کرم کم سے کم 1 اور زیادہ سے زیادہ 6 حروف درج کریں";
+"Edit listing successfully completed." = "فہرست میں ترمیم مکمل ہوگئی";
+"Edit Listing not completed." = "فہرست میں ترمیم مکمل نہ ہو";
+
+// Filter VC
+"Sorry, No items found. Try searching with different filters" = "افسوس، کوئی اشیاء نہیں ملے. مختلف فلٹرز کے ساتھ تلاش کرنے کی کوشش کریں";
+
+"Reset All" = "ری سیٹ";
+"Max Price must be greater than Min Price" = "زیادہ سے زیادہ قیمت کم قیمت سے زیادہ ہونا ضروری ہے";
+"Zip Code not found!" = "زپ کوڈ نہیں ملا!";
+
+"Items you list for sale, appear here" = "آپ جو فروخت فروخت کرتے ہیں وہ یہاں موجود ہیں";
+"Items you are currently in the process of buying and have bid on, appear here" = "آپ جو ابھی خریدنے اور بولی کرنے کے عمل میں ہیں وہ موجود ہیں";
+"Items you buy or win after bidding, appear here" = "بولڈنگ کے بعد آپ خریدنے یا جیتنے والے اشیا یہاں موجود ہیں";
+"People, who follow you, appear here" = "لوگ، جو آپ کی پیروی کرتے ہیں، یہاں آتے ہیں";

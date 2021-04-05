@@ -1,0 +1,72 @@
+
+/* Class = "UITextField"; placeholder = "All"; ObjectID = "8Xf-yn-RXw"; */
+"8Xf-yn-RXw.placeholder" = "All";
+
+/* Class = "UILabel"; text = "www.sell4Bids.com"; ObjectID = "9lH-n9-gnV"; */
+"9lH-n9-gnV.text" = "www.sell4Bids.com";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "AWe-4n-62l"; */
+"AWe-4n-62l.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Try Again"; ObjectID = "Aht-d6-ghL"; */
+"Aht-d6-ghL.normalTitle" = "Try Again";
+
+/* Class = "UILabel"; text = "Price Range"; ObjectID = "CDP-Jv-GJm"; */
+"CDP-Jv-GJm.text" = "Price Range";
+
+/* Class = "UILabel"; text = "Locate Me"; ObjectID = "IVh-iO-XdE"; */
+"IVh-iO-XdE.text" = "Locate Me";
+
+/* Class = "UITextField"; placeholder = "Min"; ObjectID = "JNU-4d-anl"; */
+"JNU-4d-anl.placeholder" = "Min";
+
+/* Class = "UILabel"; text = "product Title Label"; ObjectID = "MMr-ZQ-fam"; */
+"MMr-ZQ-fam.text" = "product Title Label";
+
+/* Class = "UISearchBar"; placeholder = "Enter Zip Code or City "; ObjectID = "Qpu-Rd-2FQ"; */
+"Qpu-Rd-2FQ.placeholder" = "Enter Zip Code or City ";
+
+/* Class = "UITextField"; placeholder = "Select Location"; ObjectID = "QtA-pA-wKe"; */
+"QtA-pA-wKe.placeholder" = "Select Location";
+
+/* Class = "UILabel"; text = "Buying option"; ObjectID = "SVd-vY-MzK"; */
+"SVd-vY-MzK.text" = "Buying option";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "V0E-Og-TBC"; */
+"V0E-Og-TBC.text" = "Category";
+
+/* Class = "UIButton"; normalTitle = "Buy Now"; ObjectID = "Zol-AF-QCJ"; */
+"Zol-AF-QCJ.normalTitle" = "Buy Now";
+
+/* Class = "UITextField"; placeholder = "Max"; ObjectID = "bZj-SX-mxT"; */
+"bZj-SX-mxT.placeholder" = "Max";
+
+/* Class = "UIButton"; normalTitle = "Select Location"; ObjectID = "c0g-LE-cgk"; */
+"c0g-LE-cgk.normalTitle" = "Select Location";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "cFf-RB-IdP"; */
+"cFf-RB-IdP.title" = "Home";
+
+/* Class = "UILabel"; text = "Condition"; ObjectID = "dNY-PK-HDg"; */
+"dNY-PK-HDg.text" = "Condition";
+
+/* Class = "UITextField"; placeholder = "Any"; ObjectID = "fhU-Ub-tru"; */
+"fhU-Ub-tru.placeholder" = "Any";
+
+/* Class = "UILabel"; text = "Sell4Bids"; ObjectID = "gTf-IZ-8NV"; */
+"gTf-IZ-8NV.text" = "Sell4Bids";
+
+/* Class = "UIButton"; normalTitle = "Sell or Auction Off Now"; ObjectID = "hj1-7f-Ey7"; */
+"hj1-7f-Ey7.normalTitle" = "Sell or Auction Off Now";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "l8r-L7-weZ"; */
+"l8r-L7-weZ.text" = "Location";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oph-ni-57d"; */
+"oph-ni-57d.text" = "Label";
+
+/* Class = "UILabel"; text = "Any"; ObjectID = "qap-yh-acC"; */
+"qap-yh-acC.text" = "Any";
+
+/* Class = "UILabel"; text = "You are not connected to Internet."; ObjectID = "xYb-9x-WG4"; */
+"xYb-9x-WG4.text" = "You are not connected to Internet.";

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="8PE-On-Aeb" customClass="Item_Image_CollViewCell" customModule="Sell4Bids" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="211"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ryx-Oh-74A">
+                        <rect key="frame" x="0.0" y="0.0" width="355" height="211"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ryx-Oh-74A" firstAttribute="height" secondItem="8PE-On-Aeb" secondAttribute="height" id="DTr-8d-D1S"/>
+                <constraint firstItem="ryx-Oh-74A" firstAttribute="width" secondItem="8PE-On-Aeb" secondAttribute="width" id="kMX-m6-IMB"/>
+                <constraint firstItem="ryx-Oh-74A" firstAttribute="leading" secondItem="8PE-On-Aeb" secondAttribute="leading" id="xG0-6I-IxJ"/>
+                <constraint firstItem="ryx-Oh-74A" firstAttribute="top" secondItem="8PE-On-Aeb" secondAttribute="top" id="ygd-12-EAA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="tO1-hS-Uy8"/>
+            <size key="customSize" width="355" height="211"/>
+            <connections>
+                <outlet property="Item_Slider_Image" destination="ryx-Oh-74A" id="euA-Ja-Soj"/>
+            </connections>
+            <point key="canvasLocation" x="456.80000000000001" y="171.36431784107947"/>
+        </collectionViewCell>
+    </objects>
+</document>
